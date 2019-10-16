@@ -1,5 +1,5 @@
 
-# Hópverkefni 1000
+# Hópverkefni 1
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
