@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+Til að geta keyrt verkefnið þarf sass að vera á tölvunni. Til að ná í það er hægt að keyra eftirfarandi skipun í powershell "npm install -g sass". Svo þarf að keyra skipunina "sass --watch styles.scss styles.css
+
+>>>>>>> 63db36ff3d7b41ca16211506816502ba3fcd98b4
 
 # Hópverkefni 1
 
