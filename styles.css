@@ -19,24 +19,40 @@ html {
   background-color: #eee;
 }
 
-.navigationClass {
+.testclass {
+  padding-block-end: 0%;
+}
+
+.haus {
   background-color: orange;
   top: 0;
-  left: 0;
-  right: 0;
+  max-width: 2000px;
   margin: 0;
   position: absolute;
+  right: 0;
+  left: 0;
 }
 
-h1 {
+.haus_h1 {
   font-size: 50px;
-  position: center;
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(1, 5fr);
 }
 
-.LinkGrid {
+.navbar_cont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 20px;
+}
+
+.navigationCenter {
+  margin: 0;
+  max-width: 1200px;
+}
+
+.test {
+  backdrop-filter: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
