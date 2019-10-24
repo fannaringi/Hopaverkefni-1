@@ -1,4 +1,4 @@
-@import "scss/config";
+@import "config";
 
 @function colors($color-name){
 	@return map-get($colors, $color-name)
