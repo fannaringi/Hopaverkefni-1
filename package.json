@@ -1,0 +1,24 @@
+{
+  "name": "hopaverkefni",
+  "version": "1.0.0",
+  "description": "package fyrir hopaverkefni",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass styles.scss styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fannaringi/Hopaverkefni-1.git"
+  },
+  "author": "fannar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fannaringi/Hopaverkefni-1/issues"
+  },
+  "homepage": "https://github.com/fannaringi/Hopaverkefni-1#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "sass": "^1.23.0"
+  }
+}
