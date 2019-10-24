@@ -3,8 +3,12 @@
 @function colors($color-name){
 	@return map-get($colors, $color-name)
 }
-.haus {
-    background-color: orange;
+
+.test {
+    background-color: $color-orange;
+}
+.haus{
+    background-color: $color-orange;
     top: 0;
     max-width: 2000px;
     margin: 0;
@@ -13,19 +17,33 @@
     left: 0;
 }
 .haus_h1 {
-    font-size: 50px;
     align-self: center;
     display: grid;
     text-align: center;
     font-family: $font-heading;
+    font-size: 50px;
+
 }
 .navbar_cont {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    font-size: 20px;
-    
+    text-align: center;
+    font-size: 16px;
+    font-family: $font-main;
+    color: $color-black;
 }
-.navigationCenter {
-    margin: 0;
-    max-width: 1200px;
+.nav_link_cart{
+    display: grid;
+    text-align: right;
+    font-size: 20px;
+}
+.staff{
+    padding-top: 70px;   
+}
+.products_main_grid{
+    padding-top: 75px;
+}
+.index_main_grid{
+    padding-top: 80px;
+}
+.course_main {
+    padding-top: 85px;
 }

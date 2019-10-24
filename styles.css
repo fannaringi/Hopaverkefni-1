@@ -24,7 +24,7 @@ html {
 }
 
 .haus {
-  background-color: orange;
+  background-color: #ff5000;
   top: 0;
   max-width: 2000px;
   margin: 0;
@@ -34,7 +34,6 @@ html {
 }
 
 .haus_h1 {
-  font-size: 50px;
   align-self: center;
   display: grid;
   text-align: center;
@@ -44,12 +43,32 @@ html {
 .navbar_cont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+
+.nav_link_cart {
+  display: grid;
+  text-align: right;
   font-size: 20px;
 }
 
-.navigationCenter {
-  margin: 0;
-  max-width: 1200px;
+.staff {
+  padding-top: 70px;
+}
+
+.products_main_grid {
+  padding-top: 75px;
+}
+
+.index_main_grid {
+  padding-top: 80px;
+}
+
+.course_main {
+  padding-top: 85px;
 }
 
 .staff {
@@ -154,6 +173,11 @@ html {
 }
 .li__link:hover {
   color: #000000;
+}
+
+.h5 {
+  display: grid;
+  grid-template-columns: 4, 1fr;
 }
 
 /*# sourceMappingURL=styles.css.map */
