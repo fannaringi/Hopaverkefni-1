@@ -1,6 +1,51 @@
-.testclass {
-    background-color: #eee;
+@import "scss/config";
+
+@function colors($color-name){
+	@return map-get($colors, $color-name)
 }
-.testclass {
-    padding-block-end: 0%;
+@function fonts($font-name){
+	@return map-get($fonts, $font-name)
 }
+
+.products_main {
+    padding-top: $gutter;
+    padding-bottom: $gutter * 2;
+
+}
+
+.products_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products_img_container {
+    padding-bottom: $gutter;
+}
+
+.products_img {
+    height: 100%;
+    width: 100%;
+}
+
+.product_title {
+    @media (max-widht: 500px) {
+        font-size: 2.5em;
+    }
+    padding-bottom: $gutter;
+    flex-grow: 1;
+}
+.product_description {
+    margin-bottom: $gutter;
+    flex-grow: 1;
+}
+
+.product_price {
+    font-size: 1.5em;
+    @media (max-width: 500px) {
+    }
+    padding-bottom: $gutter / 2;
+}
+
+
+
