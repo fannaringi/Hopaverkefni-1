@@ -1,4 +1,4 @@
-@import ".footer/config";
+@import "config";
 
 .footer {
     display: flex;
@@ -6,7 +6,7 @@
     background-color: $color-blue;
     padding: $gutter;
     
-    &__lists {
+    &fotur_li_category {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -20,7 +20,7 @@
         }
     }
     
-    &__list {
+    &fotur_li_category {
         display: flex;
         padding-right: $gutter;
 
@@ -45,12 +45,12 @@
             }
         }
     }   
-    &__note {
+    &fotur_li_category {
         margin: 0 auto;
     }
 }
 
-.list {
+.li {
     &__link {
         text-decoration: none;
         color: $color-white;
@@ -62,4 +62,6 @@
         }
     }
 }
+
+
 
