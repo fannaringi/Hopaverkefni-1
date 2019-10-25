@@ -1,4 +1,4 @@
-<b>Hópverkefni 1</b>
+ru<b>Hópverkefni 1</b>
 
 Þetta verkefni tengist því að búa til síðu sem kallast prílihúsið sem við gerum með að fylgja eftir fyrirmynd.
 
