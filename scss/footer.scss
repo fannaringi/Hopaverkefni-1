@@ -1,4 +1,4 @@
-@import "config";
+@import "./config";
 
 .footer {
     display: flex;
@@ -6,7 +6,7 @@
     background-color: $color-blue;
     padding: $gutter;
     
-    &fotur_li_category {
+    &__row {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -20,7 +20,7 @@
         }
     }
     
-    &fotur_li_category {
+    &__col {
         display: flex;
         padding-right: $gutter;
 
@@ -45,12 +45,12 @@
             }
         }
     }   
-    &fotur_li_category {
+    &__copy {
         margin: 0 auto;
     }
 }
 
-.li {
+.list {
     &__link {
         text-decoration: none;
         color: $color-white;
@@ -58,28 +58,11 @@
         transition: 0.4s;
         
         &:hover {
-            color: $color-black;
+            color: $color-orange;
         }
     }
 }
-.h5 {
-    display: grid;
-    grid-template-columns: 4,1fr;
-}
-.footer_col {
-    display: grid;
-    text-align: center;
-    list-style: none;
-}
-.h5 {
-    color: $color-black;
-    font-family: $font-heading;
-}
-.footer {
-    background-color: $color-blue;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+.ul {
+    list-style-type: none;
 }
 

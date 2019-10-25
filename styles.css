@@ -87,7 +87,7 @@ html {
 }
 
 .staff {
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 .products_main_grid {
@@ -157,7 +157,7 @@ html {
   background-color: #00b7ff;
   padding: 20px;
 }
-.footerfotur_li_category {
+.footer__row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -166,68 +166,48 @@ html {
   font-size: 21px;
   margin: 0 auto;
 }
-.footerfotur_li_category {
+.footer__col {
   display: flex;
   padding-right: 20px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 @media (max-width: 800px) {
-  .footerfotur_li_category {
+  .footer__col {
     width: 50%;
   }
 }
 @media (max-width: 400px) {
-  .footerfotur_li_category {
+  .footer__col {
     width: 100%;
   }
 }
-.footerfotur_li_category > * {
+.footer__col > * {
   padding: 20px;
 }
-.footerfotur_li_category ul {
+.footer__col ul {
   list-style: none;
 }
-.footerfotur_li_category ul label {
+.footer__col ul label {
   font-size: 24px;
   font-weight: bold;
 }
-.footerfotur_li_category {
+.footer__copy {
   margin: 0 auto;
 }
 
-.li__link {
+.list__link {
   text-decoration: none;
   color: #fffcf2;
   font-weight: normal;
   transition: 0.4s;
 }
-.li__link:hover {
-  color: #000000;
+.list__link:hover {
+  color: #ff5000;
 }
 
-.h5 {
-  display: grid;
-  grid-template-columns: 4, 1fr;
-}
-
-.footer_col {
-  display: grid;
-  text-align: center;
-  list-style: none;
-}
-
-.h5 {
-  color: #000000;
-  font-family: "Oswald", sans-serif;
-}
-
-.footer {
-  background-color: #00b7ff;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+.ul {
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
