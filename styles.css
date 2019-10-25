@@ -54,10 +54,6 @@ html {
   font-size: 1.5em;
   padding-bottom: 10px;
 }
-.test {
-  background-color: #ff5000;
-}
-
 .haus {
   background-color: #ff5000;
   top: 0;
@@ -90,7 +86,7 @@ html {
 }
 
 .staff {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .products_main_grid {
@@ -212,6 +208,17 @@ html {
 .h5 {
   display: grid;
   grid-template-columns: 4, 1fr;
+}
+
+.footer_col {
+  display: grid;
+  text-align: center;
+  list-style: none;
+}
+
+.h5 {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

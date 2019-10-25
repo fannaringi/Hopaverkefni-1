@@ -66,5 +66,13 @@
     display: grid;
     grid-template-columns: 4,1fr;
 }
-
+.footer_col {
+    display: grid;
+    text-align: center;
+    list-style: none;
+}
+.h5 {
+    color: $color-black;
+    font-family: $font-heading;
+}
 
