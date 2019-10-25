@@ -15,16 +15,47 @@ html {
   overflow-x: hidden;
 }
 
-.testclass {
-  background-color: #eee;
+.products_main {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-.testclass {
-  padding-block-end: 0%;
+.products_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.products_img_container {
+  padding-bottom: 20px;
+}
+
+.products_img {
+  height: 100%;
+  width: 100%;
+}
+
+.product_title {
+  padding-bottom: 20px;
+  flex-grow: 1;
+}
+@media (max-widht: 500px) {
+  .product_title {
+    font-size: 2.5em;
+  }
+}
+
+.product_description {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.product_price {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
 .haus {
-  background-color: orange;
+  background-color: #ff5000;
   top: 0;
   max-width: 2000px;
   margin: 0;
@@ -34,22 +65,41 @@ html {
 }
 
 .haus_h1 {
-  font-size: 50px;
   align-self: center;
   display: grid;
   text-align: center;
   font-family: "Oswald", sans-serif;
+  font-size: 50px;
 }
 
 .navbar_cont {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  font-size: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
 }
 
-.navigationCenter {
-  margin: 0;
-  max-width: 1200px;
+.nav_link_cart {
+  display: grid;
+  text-align: right;
+  font-size: 20px;
+  align-self: right;
+}
+
+.staff {
+  padding-top: 100px;
+}
+
+.products_main_grid {
+  padding-top: 75px;
+}
+
+.index_main_grid {
+  padding-top: 80px;
+}
+
+.course_main {
+  padding-top: 85px;
 }
 
 .staff {
@@ -156,20 +206,28 @@ html {
   color: #000000;
 }
 
+.h5 {
+  display: grid;
+  grid-template-columns: 4, 1fr;
+}
+
+.footer_col {
+  display: grid;
+  text-align: center;
+  list-style: none;
+}
+
+.h5 {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer {
+  background-color: #00b7ff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=styles.css.map */
-
-
-
-/* TODO sækja allar sass skrár */
-
-@import "scss/footer.scss";
-@import "scss/header.scss";
-@import "scss/index.scss";
-@import "scss/products.scss";
-@import "scss/staff.scss";
-@import "scss/course.scss";
-@import "scss/cart.scss";
-
-
-
-
