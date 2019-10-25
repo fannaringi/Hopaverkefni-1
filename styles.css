@@ -83,6 +83,7 @@ html {
   display: grid;
   text-align: right;
   font-size: 20px;
+  align-self: right;
 }
 
 .staff {
@@ -219,6 +220,14 @@ html {
 .h5 {
   color: #000000;
   font-family: "Oswald", sans-serif;
+}
+
+.footer {
+  background-color: #00b7ff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */

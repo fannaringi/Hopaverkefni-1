@@ -75,4 +75,11 @@
     color: $color-black;
     font-family: $font-heading;
 }
+.footer {
+    background-color: $color-blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
