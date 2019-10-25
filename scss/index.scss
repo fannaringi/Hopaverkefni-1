@@ -1,5 +1,22 @@
 @import "config";
 
+* {
+    padding: 0;
+    margin: 0; }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; 
+}
+  
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif; 
+}
+
 .index_main {
  @media(max-width: 500px) {
      padding-top: $gutter;
@@ -24,26 +41,6 @@
     }
 }
 
-.index_item_title {
-    font size: 2.5em;
-    @media (max-width:500p) {
-        font-size: 2.9em;
-    }
-}
-.index_item_text {
-    padding-left: $gutter;
-    @media(max-width: 800px) {
-        padding: 3*$gutter 0 3*$gutter 0;
-    }
-}
-@media(max-width: 500px) {
-    padding: 3*$gutter 0 4*$gutter 0;
-    font-size: 2em;
-}
-margin: -2*$gutter -2*$gutter -2*$gutter 0;
-font-size: 1.5em;
-}
-
 .index_item__button {
 display: flex;
 justify-content: center;
@@ -57,8 +54,8 @@ border-radius: 5px;
 }
 
 .index_item__button:hover {
-color: $blue;
-background-color: $orange;
+color: $color-blue;
+background-color: $color-orange;
 }
 
 .index_img {

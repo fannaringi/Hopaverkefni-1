@@ -7,45 +7,40 @@
 	@return map-get($fonts, $font-name)
 }
 
-.products_main {
-    padding-top: $gutter;
-    padding-bottom: $gutter * 2;
-
-}
-
-.products_item {
+.products {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.products_img_container {
-    padding-bottom: $gutter;
-}
-
-.products_img {
-    height: 100%;
-    width: 100%;
-}
-
-.product_title {
-    @media (max-widht: 500px) {
-        font-size: 2.5em;
+    padding: 1.25em;
+    justify-content: center;
+    font-family: $font-main;
+  
+    &__row {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: $max-width;
+      padding-bottom: $gutter * 2;
     }
-    padding-bottom: $gutter;
-    flex-grow: 1;
-}
-.product_description {
-    margin-bottom: $gutter;
-    flex-grow: 1;
-}
-
-.product_price {
-    font-size: 1.5em;
-    @media (max-width: 500px) {
+  
+    &__col {
+      width: 32%;
+      margin: 5px;
     }
-    padding-bottom: $gutter / 2;
-}
-
-
-
+  
+    &__name {
+      font-size: 2em;
+      font-family: $font-heading;
+      padding-top: $gutter;
+    }
+  
+    &__description {
+      padding-top: $gutter;
+    }
+  
+    &__price {
+      padding-top: $gutter;
+      font-family: $font-heading;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+    
+}  

@@ -1,48 +1,116 @@
-@import "config";
+@import "./config";
 
-@function colors($color-name){
-	@return map-get($colors, $color-name)
+.header {
+  background-color: $color-orange;
 }
 
-
-.haus{
-    background-color: $color-orange;
-    top: 0;
-    max-width: 2000px;
-    margin: 0;
-    position: absolute;
-    right: 0;
-    left: 0;
+.header__title {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.haus_h1 {
-    align-self: center;
-    display: grid;
+.nav_text {
     text-align: center;
     font-family: $font-heading;
-    font-size: 50px;
+}
+.nav__row {
+  margin: 0.4em;
+  word-spacing: 2em;
+  font-weight: bold;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 0.5em;
+}
 
+.nav__lists {
+  text-align: center;
 }
-.navbar_cont {
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.nav__list {
+  display: inline-block;
+}
+
+.nav__list:hover {
+  color: #fffcf2;
+}
+
+.nav__list__active__page{
+  text-decoration: underline;
+  display: inline-block;
+}
+
+.nav__list_header_cart_link {
+  display: flex;
+  justify-content: flex-end;
+  color: inherit;
+  text-decoration: none;
+  font-weight: lighter;
+  font-family: "Oswald", sans-serif;
+  max-width: 20px;
+}
+
+.nav__list_header_cart_link:hover {
+  color: #fffcf2;
+}
+@media screen and (max-width: 2000px) {
+    .nav__text {
+      text-align: center;
+      font-family: $font-heading;
+      padding-top: 0em;
+      font-size: 20px;
+    }
+  
+    .nav__row {
+      max-width: 50%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+  .nav__text {
     text-align: center;
-    font-size: 16px;
-    font-family: $font-main;
-    color: $color-black;
+    font-family: $font-heading;
+    padding-top: 0em;
+  }
+
+  .nav__row {
+    max-width: 50%;
+  }
 }
-.nav_link_cart{
-    display: grid;
-    text-align: right;
-    font-size: 20px;
-    align-self: right;
+
+@media screen and (max-width: 500px) {
+  .nav__text {
+    padding-top: 0em;
+    text-align: center;
+    font-family: $font-heading;
+  }
+
+  .nav__row {
+    padding-top: 0.2em;
+  }
+
+  .nav__link_header_cart_link {
+    justify-content: center;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+  }
 }
-.staff{
-    padding-top: 130px;   
+
+* {
+  padding: 0;
+  margin: 0;
 }
-.products_main_grid{
-    padding-top: 75px;
-}
-.index_main_grid{
-    padding-top: 80px;
-}
-.course_main {
-    padding-top: 85px;
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }

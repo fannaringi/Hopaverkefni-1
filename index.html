@@ -12,22 +12,33 @@
 </head>
 
 <body>
-  <header class="haus">
-    <div class="grid">
-      <div class="grid_row">
-        <h1 class="haus_h1">Prílihúsið</h1>
+  <header class="header">
+    <div class="header__box">
+      <div class="nav__text">
+        <h1>Prílihúsið</h1>
       </div>
-      <nav class="grid_row_navbar">
-        <div class="navbar_cont">
-          <a class="nav_link active_page" href="index.html">FORSÍÐA</a>
-          <a class="nav_link" href="pages/products.html">VÖRUR</a>
-          <a class="nav_link" href="pages/course.html">NÁMSKEIÐ</a>
-          <a class="nav_link" href="pages/staff.html">STARFSFÓLK</a>
+      <div class="nav__row">
+        <div class="nav__con">
+          <ul class="nav__lists">
+            <li class="nav__list__active__page">
+              <a href="./index.html" class="nav__link">Forsíða</a>
+            </li>
+            <li class="nav__list">
+              <a href="pages/products.html" class="nav__link">Vörur</a>
+            </li>
+            <li class="nav__list">
+              <a href="pages/course.html" class="nav__link">Námskeið</a>
+            </li>
+            <li class="nav__list">
+              <a href="pages/staff.html" class="nav__link">Starfsfólk</a>
+            </li>
+          </ul>
         </div>
         <div>
-          <a class="nav_link_header_cart_link" href="pages/cart.html">Karfa(6)</a>
+          <img src="img/cart.svg">
+          <a class="nav__list_header_cart_link" href="pages/cart.html">Karfa(6)</a>
         </div>
-      </nav>
+      </div>
     </div>
   </header>
   <main class="index_main_grid">
@@ -44,7 +55,7 @@
     <div class="grid_col grid_col-6 index_item_content">
       <h2 class="index_item_title">Besta starfsfólkið</h2>
       <p class="index_item_text">Starfsfólkið okkar hugsar vel um þig.</p>
-      <a class="index_item_button" href="staff/cart.html">Kynnast starfsfólki</a>
+      <a class="index_item_button" href="./pages/staff.html">Kynnast starfsfólki</a>
     </div>
     <div class="grid_col grid_col-6">
       <img class="index_img" src="img/team.jpg">
@@ -91,7 +102,7 @@
       </div>
     </div>
     <div class="footer__copy">
-      &copy; Vöruhúsið 2018
+      &copy; Prílihúsið 2019
     </div>
   </footer>
 </body>
