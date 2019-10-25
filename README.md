@@ -14,7 +14,7 @@ Leiðbeiningar: finnur verkefnið í cd og finnur möppu verksins og gerir svo n
 
 Skipulag vefsíðu
 Í grunn verkefnis er index.html skjalið aðal html skjalið okkar . Öll önnur html skjöl eru geymd í /pages möppu. styles.scss er einnig geymt í grunninum eða svokallaðari (Rót) . Hún inniheldur nokkrar grunnskipanir og vísar okkur svo í önnur scss skjöl sem eru í möppu /scss. Í þeirri möppu eru scss skjöl skipulögð eftir hlutverkum. Myndir t.d  eru geymdar í /img möppu.
-Í scss eru t.d skjöl fyrir staff,courses,products og cart
+Í scss eru t.d skjöl fyrir staff,courses,products og cart.
 
 Höfundar
 Ágúst Örn Ingason - (aoi5@hi.is)
