@@ -28,3 +28,5 @@ Myndinn af Innkaupakörfu fengu við  á iconfinder
 https://www.iconfinder.com/icons/216460/cart_icon
 Allar aðrar myndir eru teknar  frá Unsplash
 https://unsplash.com/photos/N4QTBfNQ8Nk
+
+<p> Því miður var verkefið óklárað.
